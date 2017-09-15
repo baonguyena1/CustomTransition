@@ -19,6 +19,7 @@
 		BB3B33D81B4049EC00B5C810 /* ViewControllerProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB3B33D71B4049EC00B5C810 /* ViewControllerProvider.swift */; };
 		BB3B33DB1B4056B700B5C810 /* Pets.plist in Resources */ = {isa = PBXBuildFile; fileRef = BB3B33DA1B4056B700B5C810 /* Pets.plist */; };
 		BB3B33DD1B4064E600B5C810 /* PetCardStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB3B33DC1B4064E600B5C810 /* PetCardStore.swift */; };
+		DC037E3B1F6BC1F300CE535A /* SwipeInteractionController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC037E3A1F6BC1F300CE535A /* SwipeInteractionController.swift */; };
 		DC5F99381F6B865B002D0642 /* FlipPresentAnimationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC5F99371F6B865B002D0642 /* FlipPresentAnimationController.swift */; };
 		DCF5A9881F6B8FE100609012 /* FlipDismissAnimationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCF5A9871F6B8FE100609012 /* FlipDismissAnimationController.swift */; };
 /* End PBXBuildFile section */
@@ -38,6 +39,7 @@
 		BB3B33D71B4049EC00B5C810 /* ViewControllerProvider.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewControllerProvider.swift; sourceTree = "<group>"; };
 		BB3B33DA1B4056B700B5C810 /* Pets.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Pets.plist; sourceTree = "<group>"; };
 		BB3B33DC1B4064E600B5C810 /* PetCardStore.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PetCardStore.swift; sourceTree = "<group>"; };
+		DC037E3A1F6BC1F300CE535A /* SwipeInteractionController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwipeInteractionController.swift; sourceTree = "<group>"; };
 		DC5F99371F6B865B002D0642 /* FlipPresentAnimationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlipPresentAnimationController.swift; sourceTree = "<group>"; };
 		DCF5A9871F6B8FE100609012 /* FlipDismissAnimationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlipDismissAnimationController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -73,6 +75,7 @@
 			isa = PBXGroup;
 			children = (
 				BB3B33C91B40388D00B5C810 /* View controllers */,
+				DC037E391F6BC1D300CE535A /* InteractionControllers */,
 				BB3B33DE1B40654700B5C810 /* Animation controllers */,
 				BB3B33C81B40388A00B5C810 /* UI */,
 				BB3B33D91B40568E00B5C810 /* Data */,
@@ -145,6 +148,14 @@
 				DCF5A9871F6B8FE100609012 /* FlipDismissAnimationController.swift */,
 			);
 			path = "Animation controllers";
+			sourceTree = "<group>";
+		};
+		DC037E391F6BC1D300CE535A /* InteractionControllers */ = {
+			isa = PBXGroup;
+			children = (
+				DC037E3A1F6BC1F300CE535A /* SwipeInteractionController.swift */,
+			);
+			path = InteractionControllers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -230,6 +241,7 @@
 				BB3B33A81B40386700B5C810 /* AppDelegate.swift in Sources */,
 				BB3B33D81B4049EC00B5C810 /* ViewControllerProvider.swift in Sources */,
 				BB3B33D11B4039FB00B5C810 /* CardViewController.swift in Sources */,
+				DC037E3B1F6BC1F300CE535A /* SwipeInteractionController.swift in Sources */,
 				BB3B33CF1B4039A600B5C810 /* PageViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
